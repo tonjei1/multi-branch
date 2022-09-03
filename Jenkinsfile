@@ -10,7 +10,7 @@ pipeline{
       parallel{
         stage('sub-job1'){
           steps{
-            echo 'action11'
+            echo 'action21'
           }
         }
         stage('sub-job2'){
